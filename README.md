@@ -1,6 +1,6 @@
 <div align="center">
 
-# Eduard Castiilo
+# Eduard Castillo
 ### **4th-Year Information Technology Student • Block 4D**
 
 <p align="center">
@@ -38,6 +38,7 @@ Each milestone tracks my continuous skill progression in:
 | Milestone | Laboratory Task Description | Status |
 | :--- | :--- | :---: |
 | **Lab 1** | Welcome to the Cloud (Linux Setup & GitHub Portfolio) | ✅ **Completed** |
+| **Lab 2** | Build the Cloud Infrastructure Blueprint (Project ED) | ✅ **Completed** |
 
 ---
 

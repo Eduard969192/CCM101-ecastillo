@@ -1,7 +1,7 @@
 # Project ED: Event-Driven Scalable Cloud Infrastructure Flow
 
 ## Mission Overview
-Project ED: Event-Driven Scalable Cloud Infrastructure Flow assigned this mission to investigate the foundational infrastructure that powers modern cloud computing before deploying any services. The task involved inspecting a live cloud-hosted Linux server environment, analyzing core infrastructure components, and preparing technical documentation to support senior engineers in designing an event-driven cloud architecture.
+CloudNova Technologies assigned this mission to investigate the foundational infrastructure that powers modern cloud computing before deploying any services. The task involved inspecting a live cloud-hosted Linux server environment, analyzing core infrastructure components, and preparing technical documentation to support senior engineers in designing an event-driven cloud architecture.
 
 ## Objectives
 * Explain the major components of cloud infrastructure.

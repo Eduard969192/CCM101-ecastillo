@@ -31,6 +31,7 @@ Each milestone tracks my continuous skill progression in:
 * **Documentation:** Markdown, Technical Writing
 * **Networking & CLI:** Bash Scripting, Terminal Navigation
 * **Containers & Orchestration:** Docker, Nginx
+* **Cloud Storage:** Object Storage, MinIO, S3-Compatible Systems
 
 ---
 
@@ -42,6 +43,7 @@ Each milestone tracks my continuous skill progression in:
 | **Lab 2** | Build the Cloud Infrastructure Blueprint (Project ED) | ✅ **Completed** |
 | **Lab 3** | Multi-Cloud Explorer (AWS, Azure & GCP Research, Comparison, and Client Recommendations) | ⬜ **Not Started** |
 | **Lab 4** | Cloud-Native Engineer (Docker, Containerization, and Nginx Deployment) | ✅ **Completed** |
+| **Lab 5** | Cloud Data Engineer (Object Storage, MinIO Deployment, and Bucket Management) | ✅ **Completed** |
 
 ---
 
@@ -56,6 +58,7 @@ Each milestone tracks my continuous skill progression in:
   <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
   <img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white" />
 
 </div>
 

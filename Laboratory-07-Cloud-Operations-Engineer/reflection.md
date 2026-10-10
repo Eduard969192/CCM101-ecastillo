@@ -1,34 +1,31 @@
-# ☁️ Laboratory 07: Cloud Operations Engineer
-
-**CCM101 Cloud Computing | University of Eastern Pangasinan | Mission 7**
+# 💭 Mission Reflection
 
 ---
 
-## 🎯 Mission Overview
+## 🖥️ 1. Why Check the Host Server's Resources
 
-CloudNova Technologies is preparing a large marketing campaign for a client's website, and the client is worried that the cloud servers will run out of memory when thousands of users visit at once. As a member of the Cloud Operations Team, I performed a baseline health check on the host server, deployed the client's Nginx web server, sent test traffic to it, and used logs and live metrics to check that the infrastructure is ready for the surge.
-
-This lab is about observability. Instead of hoping the application works, I collected evidence from the host, from the container's logs, and from its real-time metrics.
+The containers can be healthy while the server underneath is not. The memory limit in docker stats was 1.859GiB, which is nearly all of the 1.9 GiB of RAM on the host, so the container and the host share one pool. The disk works the same way. The root file system is 19G with 5.5G already used, so a full disk would take Nginx down with it.
 
 ---
 
-## 📋 Objectives
+## 🔐 2. Using docker logs for a Login Complaint
 
-- Use native Linux command-line tools to monitor host CPU, memory, and disk capacity.
-- Deploy a web container and track its real-time performance using Docker metrics.
-- Generate web traffic and extract application access logs for analysis.
-- Translate raw performance data into a readable technical report using Markdown.
-- Continue expanding a professional GitHub Cloud Computing Portfolio.
+I would run docker logs on the container and look at the time the user tried to log in. In this lab I found the 404 by reading the status codes and the timestamp, so I would look for an error code or an error line near that time. It shows which page failed and when, so I am not guessing.
 
 ---
 
-## 🧰 Monitoring Commands Executed
+## 📜 3. Logs vs Metrics
 
-| 💻 Command | 📋 What It Did |
-|---|---|
-| `free -h` | Displayed the host's total, used, and available memory in readable units. |
-| `df -h /` | Displayed the size, used space, and available space of the root file system. |
-| `top` | Opened a live view of running processes and CPU load, which I watched for 5 seconds before exiting with q. |
-| `docker run -d --name client-website -p 8080:80 nginx` | Started an Nginx container named `client-website` in the background and mapped host port 8080 to container port 80. |
-| `docker ps` | Listed the running containers and confirmed that `client-website` was up. |
-| `curl http://localhost:8080` | Sent a request to the home page, which I ran three times to simulate three
+Logs record events. The 404 line told me which page was requested and that it failed. Metrics describe how the system is doing right now. docker stats showed 0.00% CPU and 2.738MiB of memory, but it could not tell me what anyone asked for. I need the logs to explain what happened and the metrics to show the load.
+
+---
+
+## 📈 4. Monitoring Thousands of Containers
+
+I think docker stats cannot scale to thousands of containers, because it shows one machine in one terminal. From Chapter 7, I understand that Prometheus collects metrics from every container automatically and Grafana turns them into dashboards and alerts. I have not used either yet, so this is my understanding from the reading.
+
+---
+
+## 🛠️ 5. Troubleshooting Growth
+
+I ran into a few problems. The top screen paused and I had to work out how to exit it. A stray pasted line gave me a bash syntax error, so I checked the logs to make sure it had not sent an extra request. Using grep to pull out the single 404 line was new for me. I now check the output before I assume a command worked.

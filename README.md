@@ -32,6 +32,8 @@ Each milestone tracks my continuous skill progression in:
 * **Networking & CLI:** Bash Scripting, Terminal Navigation
 * **Containers & Orchestration:** Docker, Nginx
 * **Cloud Storage:** Object Storage, MinIO, S3-Compatible Systems
+* **Infrastructure as Code:** Docker Compose, YAML, Multi-Tier Deployment
+* **Observability & Monitoring:** Linux Host Metrics, Docker Logs, Docker Stats
 
 ---
 
@@ -44,6 +46,8 @@ Each milestone tracks my continuous skill progression in:
 | **Lab 3** | Multi-Cloud Explorer (AWS, Azure & GCP Research, Comparison, and Client Recommendations) | ⬜ **Not Started** |
 | **Lab 4** | Cloud-Native Engineer (Docker, Containerization, and Nginx Deployment) | ✅ **Completed** |
 | **Lab 5** | Cloud Data Engineer (Object Storage, MinIO Deployment, and Bucket Management) | ✅ **Completed** |
+| **Lab 6** | Cloud Deployment Engineer (Docker Compose, Multi-Tier Architecture, and Nextcloud Deployment) | ✅ **Completed** |
+| **Lab 7** | Cloud Operations Engineer (Host Baseline, Docker Logs, and Container Metrics Monitoring) | ✅ **Completed** |
 
 ---
 
@@ -59,6 +63,9 @@ Each milestone tracks my continuous skill progression in:
   <img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nextcloud-0082C9?style=for-the-badge&logo=nextcloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
 
 </div>
 

@@ -35,6 +35,7 @@ Each milestone tracks my continuous skill progression in:
 * **Infrastructure as Code:** Docker Compose, YAML, Multi-Tier Deployment
 * **Observability & Monitoring:** Linux Host Metrics, Docker Logs, Docker Stats
 * **Cloud Security:** UFW Firewall, Default Deny Policy, Port Auditing, Principle of Least Privilege
+* **Automation & Scheduling:** Bash Scripts, chmod File Permissions, Cron Scheduling, Automated Backups
 
 ---
 
@@ -50,6 +51,7 @@ Each milestone tracks my continuous skill progression in:
 | **Lab 6** | Cloud Deployment Engineer (Docker Compose, Multi-Tier Architecture, and Nextcloud Deployment) | ✅ **Completed** |
 | **Lab 7** | Cloud Operations Engineer (Host Baseline, Docker Logs, and Container Metrics Monitoring) | ✅ **Completed** |
 | **Lab 8** | Cloud Security Engineer (Port Audit, UFW Firewall, Default Deny Policy, and Port Management) | ✅ **Completed** |
+| **Lab 9** | Cloud Automation Engineer (Bash Scripting, chmod Permissions, Automated Backups, and Cron Scheduling) | ✅ **Completed** |
 
 ---
 
@@ -69,6 +71,7 @@ Each milestone tracks my continuous skill progression in:
   <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
   <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
   <img src="https://img.shields.io/badge/UFW_Firewall-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
+  <img src="https://img.shields.io/badge/GNU_Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
 
 </div>
 

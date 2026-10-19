@@ -49,7 +49,7 @@ The audit shows that several services were listening on all addresses before any
 | 🧠 Concept | 🛠️ Application in This Lab |
 |---|---|
 | **🔑 Principle of Least Privilege** | The firewall is configured to let in only SSH for administrators and port 8080 for the web application, so each service receives only the access it needs. |
-| **🎯 Attack Surface** | The firewall is meant to shrink the exposed ports on the server down to the two that the client actually needs. |
+| **🎯 Attack Surface** | The firewall is meant to shrink the exposed ports on the server down to the two that the client actually needs, although the test showed that Docker's published port 8080 is not fully controlled by UFW alone. |
 | **🚫 Default Deny Policy** | The firewall is set to deny all incoming traffic by default and to allow outgoing traffic, with specific rules added afterward. |
 
 ---

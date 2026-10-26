@@ -1,0 +1,7 @@
+# LABORATORY REFLECTION: MISSION 1–10 (CCM)
+
+From all Missions of Computer Configuration and Management (CCM) – Missions 1-10, I have gained great knowledge and experience on how to identify computer hardware, software, system configuration, and computer troubleshooting. From each mission, I have enhanced my skills and knowledge, critical thinking, and proper procedures of doing computer lab exercises.
+
+While undertaking the laboratory exercises, I have learned about the significance of identifying the computer components, their functionality, system configuration and troubleshooting, and how to do so carefully. I also learned the significance of being patient and accurate while conducting the various activities in the laboratory. There were some challenges encountered in carrying out the various exercises; however, they made me be confident and independent.
+
+Overall, Missions 1-10 have given me practical knowledge on how to apply the theories discussed in the classroom. These laboratory activities have improved my problem solving skills and will make me conduct the future computer lab exercises better. I have learned that for one to configure and manage computers, one needs not only knowledge but also responsibility and constant learning.
